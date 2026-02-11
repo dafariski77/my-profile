@@ -2,7 +2,7 @@ import React from "react";
 
 const Introduction = () => {
   return (
-    <header className="mb-24 mt-12 text-center w-full max-w-4xl mx-auto px-4 relative">
+    <header className="mb-40 mt-12 text-center w-full max-w-4xl mx-auto px-4 relative">
       <div className="relative inline-block mb-6 pt-12 md:pt-0">
         <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter relative z-10">
           Riski Dafa Setyawan

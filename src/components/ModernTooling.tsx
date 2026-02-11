@@ -2,7 +2,7 @@ import React from "react";
 
 const ModernTooling = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 mb-20">
+    <section className="w-full max-w-6xl mx-auto px-4 mb-40">
       <h2 className="text-4xl font-black mb-8 border-b-4 border-black inline-block bg-white px-2 transform -rotate-1">
         MODERN TOOLING
       </h2>

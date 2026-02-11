@@ -2,7 +2,7 @@ import React from "react";
 
 const VolunteerSection = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 mb-24">
+    <section className="w-full max-w-6xl mx-auto px-4 mb-40">
       <h2 className="text-4xl font-black mb-12 text-center">
         <span className="border-b-4 border-black bg-cyber-lime px-4 py-1 transform -rotate-1 inline-block">
           COMMUNITY & IMPACT

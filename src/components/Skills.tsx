@@ -45,7 +45,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="w-full max-w-5xl mx-auto mb-24 px-4">
+    <section className="w-full max-w-5xl mx-auto mb-40 px-4">
       <h2 className="text-4xl font-black mb-12 text-center decoration-4 underline decoration-cyber-lime underline-offset-8">
         TECHNICAL ARSENAL
       </h2>
