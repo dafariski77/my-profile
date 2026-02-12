@@ -14,7 +14,7 @@ const ContactCTA = () => {
             <br />
             <span className="relative inline-block">
               SOMETHING EPIC?
-              <ScribbleUnderline className="absolute -bottom-12 left-0 w-full text-black" />
+              <ScribbleUnderline className="absolute -bottom-8 md:-bottom-12 left-0 w-full text-black" />
             </span>
           </h2>
 

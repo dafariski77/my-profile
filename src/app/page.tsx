@@ -10,7 +10,7 @@ import ContactCTA from "../components/ContactCTA";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-cyber-bg text-cyber-black p-8 md:p-16">
+    <main className="min-h-screen bg-cyber-bg text-cyber-black p-4 md:p-16">
       <Introduction />
 
       <h2 className="text-4xl font-black mb-24 text-center decoration-4 underline decoration-cyber-lime underline-offset-8">
