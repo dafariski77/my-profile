@@ -9,7 +9,7 @@ const VolunteerSection = () => {
         </span>
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* GDSC Card */}
         <div className="group relative">
           <div className="absolute top-2 left-2 w-full h-full bg-black"></div>
@@ -26,10 +26,10 @@ const VolunteerSection = () => {
               Core Team & Curriculum Developer
             </p>
             <p className="text-lg leading-relaxed">
-              Designed and delivered technical curriculum for{" "}
-              <strong>500+ students</strong>. Speaker at multiple "Study Jams"
-              focused on Web Development fundamentals and Cloud Computing
-              concepts.
+              Collaborated internally and with other GDSC communities to enhance
+              the ecosystem. Developed engaging materials for{" "}
+              <strong>Study Jams</strong> and served as a speaker, sharing
+              technical knowledge with members.
             </p>
           </div>
         </div>
@@ -51,9 +51,9 @@ const VolunteerSection = () => {
             </p>
             <p className="text-lg leading-relaxed">
               Actively mentoring interns at PT. Data Andalan Utama, enforcing{" "}
-              <strong>Clean Code</strong> principles and best practices in
-              React/Next.js ecosystem. Conducting weekly code reviews to ensure
-              maintainability.
+              <strong>Clean Code</strong> principles. Conducting comprehensive
+              code reviews on <strong>GitLab</strong> for every merge request to
+              ensure high-quality deliverables.
             </p>
           </div>
         </div>

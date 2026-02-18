@@ -31,7 +31,7 @@ export default function Home() {
 
       <ContactCTA />
       <footer className="text-center font-bold mt-20 border-t-4 border-black pt-8">
-        <p>&copy; {new Date().getFullYear()} - Built with Neobrutalism</p>
+        <p>&copy; {new Date().getFullYear()} - StraySheep</p>
       </footer>
     </main>
   );

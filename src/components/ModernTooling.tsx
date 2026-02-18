@@ -7,7 +7,7 @@ const ModernTooling = () => {
         MODERN TOOLING
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* XState Card */}
         <div className="bg-cyber-bg border-4 border-black p-0 overflow-hidden shadow-neobrutalism">
           <div className="bg-black text-white p-3 font-mono text-sm border-b-4 border-black flex justify-between">

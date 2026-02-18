@@ -54,7 +54,7 @@ const ExperienceTimeline = () => {
                   Cloud Infrastructure
                 </h4>
                 <p className="text-xs">
-                  Managing AWS resources including EC2, RDS, and S3 for high
+                  Managing AWS resources including EC2 and S3 for high
                   availability and performance.
                 </p>
               </div>
@@ -80,29 +80,33 @@ const ExperienceTimeline = () => {
               </span>
             </div>
 
-            <p className="mb-4 text-lg font-medium">
-              Spearheaded the frontend architecture for{" "}
-              <strong>10+ enterprise-grade applications</strong>, transitioning
-              legacy systems to modern Next.js and Expo environments.
+            <p className="mb-4 text-base font-medium">
+              Worked on <strong>10+ projects</strong>, including applications
+              built from scratch and feature development on existing systems.
+              Developed systems for marketplaces, membership platforms, and
+              payment gateways.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-gray-100 p-3 border-2 border-black">
                 <h4 className="font-bold text-sm mb-1 uppercase">
-                  Web (Next.js)
+                  Frontend Development
                 </h4>
                 <p className="text-xs">
-                  Built scalable dashboards with 50+ unique views, optimizing
-                  LCP/CLS metrics to &#60;0.1s.
+                  Built web/mobile apps using <strong>React</strong>,{" "}
+                  <strong>Next.js</strong>, and <strong>Expo</strong>. Converted
+                  Figma designs with Tailwind CSS and Shadcn UI.
                 </p>
               </div>
               <div className="bg-gray-100 p-3 border-2 border-black">
                 <h4 className="font-bold text-sm mb-1 uppercase">
-                  Mobile (Expo)
+                  State & Performance
                 </h4>
                 <p className="text-xs">
-                  Delivered cross-platform apps with 99% code sharing,
-                  integrating native modules for camera/GPS.
+                  Implemented robust state management using{" "}
+                  <strong>XState</strong> and <strong>TanStack Query</strong>.
+                  Researched and adopted new tools to improve application
+                  performance and workflow.
                 </p>
               </div>
             </div>
@@ -119,7 +123,7 @@ const ExperienceTimeline = () => {
                 </h3>
                 <div className="relative inline-block mt-1">
                   <p className="text-sm font-bold bg-cyber-orange px-2 py-1 inline-block border-2 border-black relative z-10">
-                    Backend Intern
+                    BackEnd Engineer (Internship)
                   </p>
                   <ScribbleUnderline className="absolute -bottom-2 left-0 w-full text-black z-0" />
                 </div>
@@ -129,21 +133,21 @@ const ExperienceTimeline = () => {
               </span>
             </div>
 
-            <p className="mb-4 text-lg font-medium">
-              Lead the development of a robust backend system capable of
-              handling thousands of transactions. Designed a normalized database
-              schema to unify product and order data across multiple platforms.
+            <p className="mb-4 text-base font-medium">
+              Developed a <strong>Multi-Channel Marketplace Integration</strong>{" "}
+              Web App from scratch. Designed database schemas compatible with
+              various marketplace API responses (e.g., Lazada).
             </p>
 
             <div className="border-t-4 border-black pt-4 relative mt-4">
               <SpiralIcon className="absolute -top-6 -right-4 w-12 h-12 text-cyber-lime opacity-80 transform rotate-12 pointer-events-none" />
               <h4 className="font-black text-sm mb-2 uppercase">
-                Key Achievement: Database Architecture
+                Key Contributions
               </h4>
               <div className="bg-gray-100 p-3 border-2 border-black font-mono text-xs">
-                Successfully unified conflicting data structures from 3+ major
-                e-commerce APIs into a single, query-optimized relational schema
-                using Laravel Migrations.
+                Provided APIs for frontend engineers, deployed applications to
+                server, and collaborated in an Agile team using{" "}
+                <strong>Laravel</strong> best practices.
               </div>
             </div>
           </div>

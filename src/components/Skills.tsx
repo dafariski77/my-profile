@@ -50,7 +50,7 @@ const Skills = () => {
         TECHNICAL ARSENAL
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {skillCategories.map((category, index) => (
           <div
             key={index}

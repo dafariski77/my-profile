@@ -29,7 +29,7 @@ const Introduction = () => {
           href="https://github.com/dafariski77"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-bold text-lg border-4 border-black bg-white px-8 py-3 shadow-neobrutalism hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200"
+          className="font-bold text-lg border-4 border-black bg-cyber-lime px-8 py-3 shadow-neobrutalism hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200"
         >
           GITHUB
         </a>
@@ -37,9 +37,17 @@ const Introduction = () => {
           href="https://linkedin.com/in/rskdafa"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-bold text-lg border-4 border-black bg-cyber-lime px-8 py-3 shadow-neobrutalism hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200"
+          className="font-bold text-lg border-4 border-black bg-cyber-orange px-8 py-3 shadow-neobrutalism hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200"
         >
           LINKEDIN
+        </a>
+        <a
+          href="/CV_Riski Dafa Setyawan.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-bold text-lg border-4 border-black bg-white px-8 py-3 shadow-neobrutalism hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200"
+        >
+          RESUME
         </a>
       </div>
     </header>
