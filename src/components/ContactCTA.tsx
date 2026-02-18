@@ -25,7 +25,7 @@ const ContactCTA = () => {
 
           <div className="flex flex-col md:flex-row justify-center gap-6">
             <a
-              href="mailto:riskidafa@example.com"
+              href="mailto:dafariski555@gmail.com"
               className="font-black text-xl border-4 border-black bg-white px-8 py-4 shadow-neobrutalism hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200 uppercase"
             >
               Email Me
