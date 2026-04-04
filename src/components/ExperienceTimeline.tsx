@@ -76,7 +76,7 @@ const ExperienceTimeline = () => {
                 </p>
               </div>
               <span className="text-xs font-black mt-2 md:mt-0 bg-black text-white px-2 py-1">
-                Sep 2024 - Present
+                Sep 2024 - Apr 2026
               </span>
             </div>
 

@@ -11,6 +11,23 @@ const Education = () => {
       <div className="relative bg-white border-4 border-black p-8 shadow-neobrutalism hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
           <h3 className="text-2xl font-black uppercase">
+            Universitas Semarang
+          </h3>
+          <span className="bg-cyber-lime border-2 border-black px-3 py-1 font-bold text-sm mt-2 md:mt-0">
+            2026 - Present
+          </span>
+        </div>
+        <p className="text-xl font-bold mb-2">
+          Bachelor in Informatics Engineering
+        </p>
+        <p className="text-lg">
+          GPA: <span className="bg-black text-white px-2 font-bold">3.78</span>{" "}
+          / 4.00
+        </p>
+      </div>
+      <div className="relative bg-white border-4 border-black p-8 shadow-neobrutalism hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all duration-200 mt-10">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+          <h3 className="text-2xl font-black uppercase">
             Politeknik Negeri Semarang
           </h3>
           <span className="bg-cyber-lime border-2 border-black px-3 py-1 font-bold text-sm mt-2 md:mt-0">
