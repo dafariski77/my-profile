@@ -18,7 +18,7 @@ const projects: ProjectData[] = [
   {
     title: "SISTAKU",
     role: "Fullstack Developer",
-    date: "2024",
+    date: "2026",
     desc: "A web-based platform for spatial data visualization, slum area management statistics, and budget simulation.",
     longDesc:
       "SISTAKU (Sistem Informasi Sistem Tanpa Kumuh) is a web-based information system designed to present geospatial data, area management statistics, and budget simulations in an integrated manner to support transparency and policy-making.",
@@ -34,7 +34,7 @@ const projects: ProjectData[] = [
   {
     title: "Web Bank Saebo",
     role: "Frontend Developer",
-    date: "2024",
+    date: "2025",
     desc: "A landing page for an innovative digital bank featuring an integrated AI Assistant.",
     longDesc:
       "Bank Saebo is a landing page website developed to introduce the brand and services of Bank Saebo. One of its standout features is an AI Assistant integration that functions as a virtual customer service to interactively answer queries and guide users.",
@@ -49,7 +49,7 @@ const projects: ProjectData[] = [
   {
     title: "CoinSight",
     role: "Fullstack Developer",
-    date: "2024",
+    date: "2026",
     desc: "A SaaS Web3 platform to track crypto assets, transaction history, and PnL across multiple wallets.",
     longDesc:
       "CoinSight allows Web3 users to manage their portfolios centrally. The system uses a Microservices architecture and CQRS pattern to separate heavy blockchain synchronization (write) from user dashboard rendering (read), ensuring real-time performance and scalability.",
@@ -74,7 +74,7 @@ const projects: ProjectData[] = [
   {
     title: "Gravity POS",
     role: "Frontend Developer",
-    date: "2024",
+    date: "2026",
     desc: "A fast and efficient Point of Sale (POS) web application.",
     longDesc:
       "Gravity POS focuses on a responsive user interface, dynamic shopping cart state management, and seamless integration with a Backend-as-a-Service to process cashier transactions quickly.",
@@ -89,7 +89,7 @@ const projects: ProjectData[] = [
   {
     title: "AndalanSchoolApp",
     role: "Frontend Developer",
-    date: "2024",
+    date: "2025",
     desc: "A school management platform digitalizing operations, internal payments, and parent communication.",
     longDesc:
       "Responsible for designing and implementing the frontend of two main modules: the Canteen Management (Cashless POS System) and the Parent Portal, enabling parents to monitor their children's activities and finances.",
@@ -111,7 +111,7 @@ const projects: ProjectData[] = [
   {
     title: "Intimulya ERP",
     role: "Frontend Developer",
-    date: "2024",
+    date: "2026",
     desc: "A Progressive Web App (PWA) for business management, POS, and inventory tracking.",
     longDesc:
       "Intimulya ERP handles business operations from sales and purchasing to warehouse tracking and CRM. Built with an offline-first architecture to ensure resilience against poor internet connectivity.",
@@ -133,7 +133,7 @@ const projects: ProjectData[] = [
   {
     title: "Tripwe Membership",
     role: "Mobile Developer",
-    date: "2024",
+    date: "2025",
     desc: "A cross-platform mobile app supporting the Tripwe mooring service ecosystem.",
     longDesc:
       "Tripwe Mooring is a React Native (Expo) app designed for Android and iOS. It features advanced navigation, real-time location tracking via GPS, and highly optimized data fetching and state management.",
@@ -156,7 +156,7 @@ const projects: ProjectData[] = [
   {
     title: "FISIMATE",
     role: "Fullstack Web Developer",
-    date: "Feb 2024 – Jul 2024",
+    date: "2024",
     desc: "A physics learning platform with interactive simulations and Gemini AI content generation.",
     longDesc:
       "FISIMATE is a physics learning platform with interactive simulation and content generation features to increase interest in learning for high school students. One of the excellent features on the web admin for teachers is generating questions using Gemini API.",
@@ -181,7 +181,7 @@ const projects: ProjectData[] = [
   {
     title: "Hear4U",
     role: "Cloud & Fullstack Developer",
-    date: "May 2024 – Jun 2024",
+    date: "2024",
     desc: "An AI-powered application helping deaf individuals recognize environmental sounds.",
     longDesc:
       "Hear4U captures sounds through a microphone and visually displays speech and sound recognition results. My role involved backend architecture, cloud infrastructure, and ML model deployment.",
@@ -273,10 +273,10 @@ const IntegratedProjects = () => {
           }}
         />
 
-        {projects.map((project, idx) => (
+        {[...projects].sort((a, b) => parseInt(b.date) - parseInt(a.date)).map((project, idx) => (
           <div
             key={idx}
-            className="min-w-[85vw] md:min-w-[400px] lg:min-w-[450px] snap-center shrink-0"
+            className="w-[85vw] md:w-100 lg:w-100 snap-center shrink-0"
           >
             <button
               onClick={() => setSelectedProject(project)}
