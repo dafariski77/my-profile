@@ -202,6 +202,14 @@ const IntegratedProjects = () => {
   );
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
+  const colors = ["bg-cyber-lime", "bg-cyber-orange", "bg-white"];
+  const sortedProjects = [...projects]
+    .sort((a, b) => parseInt(b.date) - parseInt(a.date))
+    .map((project, idx) => ({
+      ...project,
+      color: colors[idx % colors.length],
+    }));
+
   const scroll = (direction: "left" | "right") => {
     if (scrollContainerRef.current) {
       const { clientWidth, scrollLeft } = scrollContainerRef.current;
@@ -273,7 +281,7 @@ const IntegratedProjects = () => {
           }}
         />
 
-        {[...projects].sort((a, b) => parseInt(b.date) - parseInt(a.date)).map((project, idx) => (
+        {sortedProjects.map((project, idx) => (
           <div
             key={idx}
             className="w-[85vw] md:w-100 lg:w-100 snap-center shrink-0"
